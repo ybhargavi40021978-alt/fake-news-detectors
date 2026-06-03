@@ -1,144 +1,210 @@
-\# 📰 Fake News Detector
+\# 📰 AI Truth Engine – Fake News Detection System
 
 
 
-An AI-powered web application that helps users identify whether a news headline or article is likely to be \*\*Real\*\* or \*\*Fake\*\* using Machine Learning and Natural Language Processing (NLP).
+An advanced AI-powered Fake News Detection platform that helps users verify the authenticity of news articles using Machine Learning and Natural Language Processing techniques.
 
 
 
-\## 📌 Overview
+The platform supports multilingual news analysis, user authentication, profile management, analysis history tracking, and AI-based credibility scoring.
 
 
 
-In today's digital world, misinformation spreads rapidly through social media, websites, and messaging platforms. Fake news can influence public opinion, create confusion, and spread false information.
+\---
 
 
 
-The Fake News Detector aims to provide users with a simple and reliable way to verify news content by analyzing text and predicting its authenticity using a trained Machine Learning model.
+\## 🚀 Project Overview
 
 
 
+Fake news spreads rapidly across digital platforms and often misleads users. AI Truth Engine provides a smart solution by analyzing news content and predicting whether the information is likely to be real or fake.
 
 
-\## 🎯 Problem Statement
 
+The system combines:
 
 
-The internet contains a massive amount of unverified information. Many users find it difficult to determine whether a news article is trustworthy or misleading.
 
+\* Modern React Frontend
 
+\* Node.js Backend APIs
 
-This project addresses that challenge by providing an intelligent system that:
+\* MongoDB Database
 
+\* Machine Learning Prediction Engine
 
+\* JWT Authentication
 
-\* Analyzes news headlines and articles
+\* Multilingual News Analysis
 
-\* Detects potential misinformation
 
-\* Provides prediction results with confidence scores
 
-\* Maintains user search history for future reference
+\---
 
 
 
-\## 🚀 Features
+\## ✨ Features
 
 
 
-\### 🤖 AI-Based News Classification
+\### 🔐 Authentication System
 
 
 
-\* Predicts whether news is Real or Fake
+\* User Registration
 
-\* Uses Machine Learning and NLP techniques
+\* User Login
 
+\* JWT Authentication
 
+\* Secure Password Hashing
 
-\### 👤 User Authentication
+\* Protected Routes
 
 
 
-\* Secure user registration and login
+\### 👤 User Profile
 
-\* JWT-based authentication
 
 
+\* Profile Information
 
-\### 📊 Confidence Score
+\* Profile Image Upload
 
+\* Account Management
 
 
-\* Displays prediction confidence percentage
 
-\* Helps users understand prediction reliability
+\### 📰 News Analysis
 
 
 
-\### 📜 Prediction History
+\* Paste News Content
 
+\* AI-based Fake News Detection
 
+\* Confidence Score Generation
 
-\* Saves previous news analyses
+\* Instant Prediction Results
 
-\* Allows users to review past predictions
+\* Real/Fake Classification
 
 
 
-\### 📈 Analytics Dashboard
+\### 🌍 Multilingual Support
 
 
 
-\* Total analyses performed
+Supported Languages:
 
-\* Real news count
 
-\* Fake news count
 
-\* User activity insights
+\* English
 
+\* Hindi
 
+\* Tamil
 
-\### 📱 Responsive User Interface
+\* Telugu
 
+\* Malayalam
 
+\* Kannada
 
-\* Mobile-friendly design
+\* Bengali
 
-\* Modern and intuitive dashboard
+\* Spanish
 
+\* French
 
+\* German
 
-\## 🏗️ System Architecture
+\* Chinese
 
+\* Japanese
 
+\* Arabic
 
-User Input (News Headline/Article)
+
+
+\### 📜 History Tracking
+
+
+
+\* Previous Analyses
+
+\* Confidence Records
+
+\* Timestamp Tracking
+
+\* Language Tracking
+
+
+
+\### 🎨 Modern UI
+
+
+
+\* Responsive Design
+
+\* Framer Motion Animations
+
+\* Glassmorphism Effects
+
+\* Dark Theme Interface
+
+
+
+\---
+
+
+
+\## 🏗️ Project Architecture
+
+
+
+Frontend (React + Vite)
+
+
 
 ↓
 
-Frontend (React)
 
-↓
 
 Backend API (Node.js + Express)
 
-↓
 
-Machine Learning Model (Python)
-
-↓
-
-Prediction Result
 
 ↓
 
-MongoDB Storage \& Dashboard
+
+
+MongoDB Database
 
 
 
-\## 🛠️ Technology Stack
+↓
+
+
+
+Machine Learning Model
+
+
+
+↓
+
+
+
+Prediction Response
+
+
+
+\---
+
+
+
+\## 🛠️ Tech Stack
 
 
 
@@ -148,11 +214,15 @@ MongoDB Storage \& Dashboard
 
 \* React.js
 
-\* HTML5
+\* Vite
 
-\* CSS3
+\* React Router DOM
 
-\* JavaScript
+\* Axios
+
+\* Framer Motion
+
+\* Tailwind CSS
 
 
 
@@ -164,13 +234,15 @@ MongoDB Storage \& Dashboard
 
 \* Express.js
 
-
-
-\### Database
-
-
-
 \* MongoDB
+
+\* Mongoose
+
+\* JWT
+
+\* BcryptJS
+
+\* Multer
 
 
 
@@ -180,21 +252,19 @@ MongoDB Storage \& Dashboard
 
 \* Python
 
-\* Scikit-learn
+\* Scikit-Learn
 
 \* Pandas
 
 \* NumPy
 
+\* TF-IDF Vectorizer
+
+\* Naive Bayes Classifier
 
 
-\### Authentication
 
-
-
-\* JWT (JSON Web Token)
-
-\* bcrypt
+\---
 
 
 
@@ -202,35 +272,35 @@ MongoDB Storage \& Dashboard
 
 
 
-fake-news-detector/
+fake-news-detectors
 
 
 
-├── frontend/
+├── frontend
 
 
 
-├── backend/
+├── backend
 
 
 
-├── ml-model/
+├── ml-model
 
 
 
-├── docs/
+├── docs
 
 
 
-├── screenshots/
+├── screenshots
 
 
 
-├── README.md
+└── README.md
 
 
 
-└── LICENSE
+\---
 
 
 
@@ -242,15 +312,19 @@ fake-news-detector/
 
 
 
-git clone https://github.com/yourusername/fake-news-detector.git
+git clone https://github.com/ybhargavi40021978-alt/fake-news-detector.git
 
 
 
-cd fake-news-detector
+cd fake-news-detectors
 
 
 
-\### Install Frontend Dependencies
+\---
+
+
+
+\### Frontend Setup
 
 
 
@@ -262,11 +336,19 @@ npm install
 
 
 
-\### Install Backend Dependencies
+npm run dev
 
 
 
-cd ../backend
+\---
+
+
+
+\### Backend Setup
+
+
+
+cd backend
 
 
 
@@ -274,7 +356,19 @@ npm install
 
 
 
-\### Install Python Dependencies
+npm run dev
+
+
+
+\---
+
+
+
+\### Machine Learning Setup
+
+
+
+cd ml-model
 
 
 
@@ -282,43 +376,39 @@ pip install -r requirements.txt
 
 
 
-\### Start Frontend
+python train\_model.py
 
 
 
-npm start
+python app.py
 
 
 
-\### Start Backend
+\---
 
 
 
-npm run dev
+\## 🔑 Environment Variables
 
 
 
-\## 💻 Usage
+Backend `.env`
 
 
 
-1\. Register a new account.
-
-2\. Login to the platform.
-
-3\. Enter a news headline or article.
-
-4\. Click \*\*Analyze News\*\*.
-
-5\. View:
+PORT=5000
 
 
 
-&#x20;  \* Prediction Result
+MONGO\_URI=your\_mongodb\_connection
 
-&#x20;  \* Confidence Score
 
-&#x20;  \* Analysis History
+
+JWT\_SECRET=your\_secret\_key
+
+
+
+\---
 
 
 
@@ -326,35 +416,47 @@ npm run dev
 
 
 
-\### Home Page
+\### 🏠 Home Page
 
 
 
-(Add Screenshot Here)
+screenshots/HomePage.png
 
 
 
-\### Login Page
+\### 🔐 Login Page
 
 
 
-(Add Screenshot Here)
+screenshots/LoginPage.png
 
 
 
-\### Dashboard
+\### 📝 Registration Page
 
 
 
-(Add Screenshot Here)
+screenshots/RegistrationPage.png
 
 
 
-\### Prediction Result
+\### 📊 Dashboard
 
 
 
-(Add Screenshot Here)
+screenshots/DashboardPage.png
+
+
+
+\### 👤 User Profile
+
+
+
+screenshots/UserProfile.png
+
+
+
+\---
 
 
 
@@ -362,57 +464,57 @@ npm run dev
 
 
 
-\* Multi-language news detection
+\* Real-time Fact Checking APIs
 
-\* Browser extension for instant verification
+\* News Source Credibility Scoring
 
-\* Real-time fact-checking API integration
+\* AI Explain ability Dashboard
 
-\* AI-powered explanation for predictions
+\* Voice-Based News Verification
 
-\* Mobile application support
+\* Mobile Application
 
-\* News source credibility analysis
+\* Social Media Post Analysis
 
+\* Deep Learning Models
 
-
-\## 🤝 Contributing
-
-
-
-Contributions are welcome.
+\* Live News Monitoring
 
 
 
-1\. Fork the repository
-
-2\. Create a feature branch
-
-3\. Commit your changes
-
-4\. Push the branch
-
-5\. Open a Pull Request
+\---
 
 
 
-\## 📄 License
-
-
-
-This project is licensed under the MIT License.
-
-
-
-\## 👨‍💻 Author
+\## 👩‍💻 Author
 
 
 
 Y Bhargavi
 
+Sri Venkateshwara College Of Engineering \& Technology(Autonomous), Chittoor, AP
+
+CSE Data Science
 
 
-Open Source Hackathon 2026 Project
+
+\---
+
+
+
+\## 📜 License
+
+
+
+This project is developed for educational and research purposes.
+
+
+
+MIT License
+
+
+
+\---
 
 
 
@@ -420,11 +522,23 @@ Open Source Hackathon 2026 Project
 
 
 
-If you find this project useful, consider giving it a star on GitHub.
+If you found this project useful:
 
 
 
-It helps the project reach more people and encourages future development.
+⭐ Star the repository
+
+
+
+🍴 Fork the project
+
+
+
+📢 Share with others
+
+
+
+Thank you for visiting AI Truth Engine.
 
 
 

@@ -1,0 +1,25 @@
+# Node Modules
+node_modules/
+
+# Environment Files
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# ML Model
+*.pkl
+
+# Uploads
+uploads/
+
+# Logs
+npm-debug.log*
+
+# Vite
+dist/
+
+# OS Files
+.DS_Store
+Thumbs.db
