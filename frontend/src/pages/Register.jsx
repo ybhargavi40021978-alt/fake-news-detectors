@@ -25,7 +25,7 @@ const Register = () => {
       } catch (error) {
         console.error('❌ Backend not reachable:', error);
         setBackendStatus('disconnected');
-        setMessage('⚠️ Backend server is not running. Please start the backend server on port 5000');
+        setMessage('⚠️ Cannot connect to backend server');
       }
     };
     testBackend();
@@ -83,8 +83,8 @@ const Register = () => {
         console.error('❌ Fetch error details:', error);
         
         if (error.message === 'Failed to fetch') {
-          setMessage('❌ Cannot connect to backend server. Please make sure backend is running on http://localhost:5000');
-        } else {
+  setMessage('❌ Cannot connect to backend server.');
+} else {
           setMessage('❌ Registration failed: ' + error.message);
         }
       } finally {
