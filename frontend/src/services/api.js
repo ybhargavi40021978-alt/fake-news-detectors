@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // ✅ Use correct port - Backend is on 5000, Frontend on 5174
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://fake-news-detectors-dkti.onrender.com';
 
 const api = axios.create({
   baseURL: API_URL,
