@@ -18,7 +18,7 @@ const Register = () => {
   useEffect(() => {
     const testBackend = async () => {
       try {
-        const response = await fetch('http://localhost:5000/api');
+        const response = await fetch('https://fake-news-detectors-dkti.onrender.com');
         const data = await response.json();
         console.log('✅ Backend connected:', data);
         setBackendStatus('connected');
@@ -52,10 +52,10 @@ const Register = () => {
       setMessage('');
 
       try {
-        console.log('📝 Sending registration request to:', 'http://localhost:5000/api/auth/register');
+        console.log('📝 Sending registration request to:', 'https://fake-news-detectors-dkti.onrender.com/api/auth/register');
         console.log('📝 Data:', { name, email, password: '***' });
         
-        const response = await fetch('http://localhost:5000/api/auth/register', {
+        const response = await fetch( 'https://fake-news-detectors-dkti.onrender.com/api/auth/register', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
