@@ -83,8 +83,8 @@ const Register = () => {
         console.error('❌ Fetch error details:', error);
         
         if (error.message === 'Failed to fetch') {
-  setMessage('❌ Cannot connect to backend server.');
-} else {
+          setMessage('❌ Cannot connect to backend server.');
+        } else {
           setMessage('❌ Registration failed: ' + error.message);
         }
       } finally {
